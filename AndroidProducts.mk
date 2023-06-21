@@ -17,3 +17,7 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/acme_x86_64.mk \
     $(LOCAL_DIR)/acme_car_x86_64.mk
+
+COMMON_LUNCH_CHOICES := \
+    acme_x86_64-userdebug \
+    acme_car_x86_64-userdebug
