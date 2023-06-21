@@ -25,8 +25,8 @@ PRODUCT_MODEL := ACME Automotive x86_64 Emulator
 
 # Override:
 #  PRODUCT_BRAND := Android
-#  PRODUCT_DEVICE := emulator_x86_64
+#  PRODUCT_DEVICE := emulator_car_x86_64
 #  PRODUCT_MANUFACTURER := unknown
 PRODUCT_BRAND := ACME
-PRODUCT_DEVICE := emulator_x86_64
+PRODUCT_DEVICE := emulator_car_x86_64
 PRODUCT_MANUFACTURER := ACME Corp.
