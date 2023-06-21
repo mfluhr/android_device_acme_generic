@@ -15,18 +15,18 @@
 #
 
 # Inherit from the standard automotive emulator product configuration
-$(call inherit-product, device/generic/car/aosp_car_x86_64.mk)
+$(call inherit-product, device/generic/goldfish/car/sdk_car_x86_64.mk)
 
 # Override:
-#  PRODUCT_NAME := aosp_car_x86_64
+#  PRODUCT_NAME := sdk_car_x86_64
 #  PRODUCT_MODEL := Car on x86_64 emulator
 PRODUCT_NAME := acme_car_x86_64
 PRODUCT_MODEL := ACME Automotive x86_64 Emulator
 
 # Override:
 #  PRODUCT_BRAND := Android
-#  PRODUCT_DEVICE := generic_x86_64
+#  PRODUCT_DEVICE := emulator_x86_64
 #  PRODUCT_MANUFACTURER := unknown
 PRODUCT_BRAND := ACME
-PRODUCT_DEVICE := generic_x86_64
+PRODUCT_DEVICE := emulator_x86_64
 PRODUCT_MANUFACTURER := ACME Corp.
